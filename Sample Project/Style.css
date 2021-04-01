@@ -1,0 +1,11 @@
+#div-bar{
+    top:42pt;
+    right:0;
+    left:0;
+    bottom: 0;
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+    position: absolute;
+}
