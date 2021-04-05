@@ -7,4 +7,4 @@
  }
  document.getElementById("demo").innerHTML = "<button class='btn btn-success'>"+text+"</button>";
 
- alert("A Wife says to her husband :) ");
+ alert("A Wife says to her husband :) "); 
