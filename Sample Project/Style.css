@@ -1,7 +1,12 @@
 
 
 #carousel{
-    height:300pt;
+    height:550pt;
     background-size: cover;
     background-position: bottom;
+}
+
+.content{
+   position: absolute;
+   top:50pt;
 }
