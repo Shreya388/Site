@@ -1,5 +1,5 @@
-var startTimerButton = document.querySelector('.startTimer');
-var pauseTimerButton = document.querySelector('.pauseTimer');
+var startTimerButton = document.querySelector('.start');
+var pauseTimerButton = document.querySelector('.pause');
 var timerDisplay = document.querySelector('.timer');
 var startTime;
 var updatedTime;
