@@ -1,0 +1,31 @@
+.container{
+    height: 300px;
+    width: 100%;
+
+}
+
+#display{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons{
+    text-align: center;
+    
+}
+
+button{
+    background: #007acc;
+    border: 1pt solid rgb(168, 249, 255);
+    border-radius: 5pt;
+    padding: 10pt;
+    color:whitesmoke;
+    font-family: monospace;
+}
+
+button:hover{
+    background: #fd3a5b;
+}
+
