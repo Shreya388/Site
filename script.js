@@ -73,3 +73,12 @@ function startStop(){
     }
 }
     
+// function for reset button
+function reset(){
+    window.clearInterval(interval);
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    document.getElementById("display").innerHTML = "00:00:00";
+    document.getElementById("startStop").innerHTML = "Start";
+}
