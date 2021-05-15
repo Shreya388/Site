@@ -11,4 +11,4 @@ console.log(`the root of ${number} is ${result}`);
 const piNum = prompt("which number do you want the pi value of");
 const findingPi = Math.PI * piNum;
 
-alert(findingPi);
+console.log(findingPi);
