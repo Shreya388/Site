@@ -20,9 +20,10 @@ app.post("/", function(req, res){
     res.send("The result of your calculation is " + result);
 });
 
+//added /our_team in localhost
+app.get("/our_team", function(req, res){
+    res.send("<p>Jane Doe</p><br><p>John Smith</p><br><p>Kesha</p>");
 
-app.get("/contact", function(req, res){
-    res.send("<p>You can contact on: meenaxjha@gmail.com</p>");
 });
 
  
