@@ -22,7 +22,7 @@ app.post("/", function(req, res){
 
 //added /our_team in localhost
 app.get("/our_team", function(req, res){
-    res.send("<p>Jane Doe</p><br><p>John Smith</p><br><p>Kesha</p>");
+    res.send("<button style='color:white; background:green; padding:10pt; border:none;'>Jane Doe</button><br><br><button style='color:white; background:green; padding:10pt; border:none;'>John Smith</button><br><br><button style='color:white; background:green; padding:10pt; border:none;'>Kesha</button>");
 
 });
 

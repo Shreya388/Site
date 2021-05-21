@@ -7,15 +7,44 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
+
+        <style>
+            button{
+                color:white; font-weight: bold; background:rgb(0, 156, 0); padding:10pt; border:none;
+                border-radius: 4pt;
+            }
+
+            input{
+                padding:10pt;
+                border:1pt solid silver;
+                background: whitesmoke;
+                color:rgb(51, 51, 51);
+                border-radius: 4pt;
+            }
+
+            .navbar{
+                background-color: rgb(6, 51, 0);
+                padding: 30pt;
+                top:0;
+                right:0;
+                left:0;
+                position:absolute;
+                box-shadow:1pt 1pt 1pt;
+            }
+        </style>
     </head>
     <body>
         
+    <!--navbar-->    
+    <div class="navbar">
         <form action="/" method="post">
             <input type="text" name="n1" placeholder="first number"> 
             <input type="text" name="n2" placeholder="second number"> 
             <button type="submit" name="submit">Calculate</button>
         </form>
+    </div>
         
-        <script src="" async defer></script>
+    
+    <script src="" async defer></script>
     </body>
 </html>
