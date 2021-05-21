@@ -17,7 +17,7 @@ app.post("/", function(req, res){
 
    //adding both variables in var named result
    var result = num1 + num2; 
-    res.send("The result of your calculation is " + result);
+    res.send("The result of your calculation is " + result +  ". and I need to drink water :)");
 });
 
 //added /our_team in localhost
