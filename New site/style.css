@@ -1,0 +1,61 @@
+.cover{
+    background-image: url(img/cover_img.jpg);
+    background-size: cover;
+    height:600px;
+    background-position: center;
+}
+
+#cover_overlay{
+    height:600px; 
+    background:rgba(5, 5, 5, 0.637);
+}
+
+.top_nav{
+    
+    height: 60pt;
+    box-shadow:1pt 1pt 1pt rgb(102, 102, 102);
+}
+
+#heading{
+  
+    padding-top: 150pt;
+    padding-bottom:4pt;
+}
+
+.paragraph{
+    color:rgb(226, 216, 202);
+}
+
+.container-fluid{
+    max-width: 80%;
+}
+
+#card_1{
+    background-image: url(img/c.jpg);
+    height:400pt;
+    background-size: cover;
+
+}
+
+#card_2{
+    background-image: url(img/b.jpg);
+    height:400pt;
+    background-size: cover;
+
+}
+
+#card_3{
+    background-image: url(img/a.jpg);
+    height:400pt;
+    background-size: cover;
+
+}
+
+.card_overlay{
+    background:rgba(3, 3, 3, 0.644);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    height:200px;
+}
