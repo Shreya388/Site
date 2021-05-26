@@ -7,7 +7,7 @@
 
 #cover_overlay{
     height:600px; 
-    background:rgba(5, 5, 5, 0.637);
+    background:rgba(5, 5, 5, 0.486);
 }
 
 .top_nav{
@@ -58,4 +58,16 @@
     left:0;
     right:0;
     height:200px;
+}
+
+#our_numbar{
+    position: absolute;
+    top: 680px;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    left:0;
+    width:300pt;
+    background:rgba(9, 104, 192, 0.671);
+    border-radius: 0 0 60px 0;
+   
 }
