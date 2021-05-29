@@ -1,24 +1,25 @@
 .cover{
     background-image: url(img/cover_img.jpg);
     background-size: cover;
-    height:600px;
+    height:500px;
     background-position: center;
 }
 
 #cover_overlay{
     height:600px; 
-    background:rgba(5, 5, 5, 0.486);
+    background:rgba(0, 0, 0, 0.555);
 }
 
 .top_nav{
     
     height: 60pt;
-    box-shadow:1pt 1pt 1pt rgb(102, 102, 102);
+    box-shadow:1pt 1pt 2pt rgba(122, 69, 0, 0.329);
+    position: fixed;
 }
 
 #heading{
   
-    padding-top: 150pt;
+    padding-top: 100pt;
     padding-bottom:4pt;
 }
 
@@ -27,26 +28,26 @@
 }
 
 .container-fluid{
-    max-width: 80%;
+    max-width: 100%;
 }
 
 #card_1{
     background-image: url(img/c.jpg);
-    height:400pt;
+    height:300pt;
     background-size: cover;
 
 }
 
 #card_2{
     background-image: url(img/b.jpg);
-    height:400pt;
+    height:300pt;
     background-size: cover;
 
 }
 
 #card_3{
     background-image: url(img/a.jpg);
-    height:400pt;
+    height:300pt;
     background-size: cover;
 
 }
@@ -57,7 +58,7 @@
     bottom: 0;
     left:0;
     right:0;
-    height:200px;
+    height:300px;
 }
 
 #our_numbar{
