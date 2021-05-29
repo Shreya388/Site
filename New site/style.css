@@ -1,5 +1,5 @@
 .cover{
-    background-image: url(img/cover_img.jpg);
+    background-image: url(img/sofa.jpg);
     background-size: cover;
     height:500px;
     background-position: center;
@@ -7,7 +7,7 @@
 
 #cover_overlay{
     height:600px; 
-    background:rgba(0, 0, 0, 0.555);
+    background:rgba(0, 0, 0, 0.418);
 }
 
 .top_nav{
@@ -58,17 +58,33 @@
     bottom: 0;
     left:0;
     right:0;
-    height:300px;
+    height:200px;
 }
 
-#our_numbar{
-    position: absolute;
-    top: 680px;
-    padding-top: 3pt;
-    padding-bottom: 3pt;
-    left:0;
-    width:300pt;
-    background:rgba(9, 104, 192, 0.671);
-    border-radius: 0 0 60px 0;
+
+
+
+/*section 3*/
+.section-3{
+    padding-bottom: 100pt;
+    background-image:url(img/texture.jpg);
+    background-size:cover;
+    height: 400pt;
    
 }
+
+#orange{
+    color:orange;
+}
+
+#team_img{
+    border-radius:100pt;
+   
+}
+
+.sec3_overlay{
+    background:rgba(0, 9, 15, 0.932);
+    height: 400pt;
+}
+
+/*end of section 3*/
