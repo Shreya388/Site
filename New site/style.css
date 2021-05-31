@@ -1,13 +1,14 @@
 .cover{
-    background-image: url(img/cover_img.jpg);
+    background-image: url(img/sofa.jpg);
     background-size: cover;
     height:500px;
     background-position: center;
+    box-shadow: 0pt 0pt 4pt 8pt rgb(194, 194, 194);
 }
 
 #cover_overlay{
-    height:600px; 
-    background:rgba(0, 0, 0, 0.534);
+    height:500px; 
+    background:rgba(5, 2, 2, 0.308);
 }
 
 .top_nav{
@@ -26,6 +27,7 @@
 .paragraph{
     color:rgb(221, 221, 221);
     font-size:10pt;
+    font-family: sans-serif;
 }
 
 .container-fluid{
@@ -34,32 +36,32 @@
 
 #card_1{
     background-image: url(img/c.jpg);
-    height:300pt;
+    height:400pt;
     background-size: cover;
 
 }
 
 #card_2{
     background-image: url(img/b.jpg);
-    height:300pt;
+    height:400pt;
     background-size: cover;
 
 }
 
 #card_3{
     background-image: url(img/a.jpg);
-    height:300pt;
+    height:400pt;
     background-size: cover;
-
+   
 }
 
 .card_overlay{
-    background:rgba(3, 3, 3, 0.644);
+    background:rgba(3, 3, 3, 0.479);
     position: absolute;
     bottom: 0;
     left:0;
     right:0;
-    height:200px;
+    height:533px;
 }
 
 
@@ -68,10 +70,9 @@
 /*section 3*/
 .section-3{
     padding-bottom: 100pt;
-    background-image:url(img/texture.jpg);
     background-size:cover;
     height: 250pt;
-   
+    box-shadow: 0pt 0pt 4pt 8pt rgb(194, 194, 194);
 }
 
 #orange{
@@ -84,8 +85,37 @@
 }
 
 .sec3_overlay{
-    background:rgba(0, 26, 43, 0.932);
+    background:rgba(0, 0, 0, 0.87);
     height: 250pt;
 }
 
 /*end of section 3*/
+
+/*section 4*/
+
+#item_1{
+    background-image: url(img/1.jpg);
+    height:400pt;
+    background-size: cover;
+  
+}
+
+#item_2{
+    background-image: url(img/2.jpg);
+    height:400pt;
+    background-size: cover;
+   
+}
+
+#item_3{
+    background-image: url(img/3.jpg);
+    height:400pt;
+    background-size: cover;
+    
+}
+
+.section-4{
+    
+    height:900pt;
+}
+
