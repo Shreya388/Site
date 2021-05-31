@@ -1,5 +1,5 @@
 .cover{
-    background-image: url(img/sofa.jpg);
+    background-image: url(img/cover_img.jpg);
     background-size: cover;
     height:500px;
     background-position: center;
@@ -7,7 +7,7 @@
 
 #cover_overlay{
     height:600px; 
-    background:rgba(0, 0, 0, 0.418);
+    background:rgba(0, 0, 0, 0.534);
 }
 
 .top_nav{
@@ -24,7 +24,8 @@
 }
 
 .paragraph{
-    color:rgb(226, 216, 202);
+    color:rgb(221, 221, 221);
+    font-size:10pt;
 }
 
 .container-fluid{
@@ -69,7 +70,7 @@
     padding-bottom: 100pt;
     background-image:url(img/texture.jpg);
     background-size:cover;
-    height: 400pt;
+    height: 250pt;
    
 }
 
@@ -83,8 +84,8 @@
 }
 
 .sec3_overlay{
-    background:rgba(0, 9, 15, 0.932);
-    height: 400pt;
+    background:rgba(0, 26, 43, 0.932);
+    height: 250pt;
 }
 
 /*end of section 3*/
