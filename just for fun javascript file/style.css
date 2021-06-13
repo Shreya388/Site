@@ -1,0 +1,31 @@
+
+
+
+button{
+    background:rgb(36, 36, 36);
+}
+
+
+.div1{
+    background:url(img1.jpg);
+    background-size: cover;
+    position: absolute;
+    top:40pt;
+    left:0;
+    right:0;
+    bottom:0;
+    box-shadow: 1pt 1pt 1pt 0pt;
+    background-position: center;
+}
+
+.div2{
+    background:url(img2.jpg);
+    background-size: cover;
+    position: absolute;
+    top:40pt;
+    left:0;
+    right:0;
+    bottom:0;
+    box-shadow: 1pt 1pt 1pt 0pt;
+    background-position: center;
+}
